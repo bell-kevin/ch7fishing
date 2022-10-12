@@ -1,0 +1,14 @@
+Ch 7 Fishing
+Kevin Bell
+
+ Roll a 1: caught a small fish, 2 points
+     Roll a 2: caught a medium fish, 4 points
+     Roll a 3: caught a big fish, 6 points
+     Roll a 4: fish took the bait, lose 2 points
+     Roll a 5: caught an old shoe, 0 points
+     Roll a 6: line got tangled and broke, lose 1 point
+
+ Points >= 20: great day
+     Points >= 8: fair day
+     Points >= 0: didn't do so well
+     Points < 0: bad day

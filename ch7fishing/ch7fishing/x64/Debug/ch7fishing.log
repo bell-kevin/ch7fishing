@@ -1,0 +1,4 @@
+﻿  ch7fishing.cpp
+C:\Users\4800590195\source\repos\ch7fishing\ch7fishing\ch7fishing.cpp(14,14): warning C4244: '=': conversion from 'time_t' to 'int', possible loss of data
+C:\Users\4800590195\source\repos\ch7fishing\ch7fishing\ch7fishing.cpp(31,13): warning C4244: '=': conversion from 'time_t' to 'unsigned int', possible loss of data
+  ch7fishing.vcxproj -> C:\Users\4800590195\source\repos\ch7fishing\x64\Debug\ch7fishing.exe
