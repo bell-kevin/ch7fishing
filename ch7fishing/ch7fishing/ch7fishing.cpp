@@ -4,38 +4,41 @@
 #include <iostream>
 using namespace std;
 unsigned seed;
-
+int dice;
 class RandomNumberGenerator // class definition
 { // class body
 public: // access specifier
 	//constructor
-	RandomNumberGenerator(int seed = 1)
+	RandomNumberGenerator()
 	{
 		seed = time(0);
 		srand(seed);
 		int seedValue = seed;
 	}
 	
-private: // access specifier
-	int random_number;
+	//member function
+	int rollDice()
+	{
+		int dice = rand() % 6;
+		return dice;
+	}
 };
 
 int main()
 {
     cout << "Chapter 7 Fishing Game by Kevin Bell\n\n";
 	cout << "Let's play a fishing game and see what you catch!\n\n";
-	cout << "Enter f to start fishing: ";
+	RandomNumberGenerator random_number;
 	string continueProgram, dayType;
 	int fish, points=0;
 	unsigned seed;
 	seed = time(0);
 	srand(seed); //seed the random number generator
+	cout << "Enter f to start fishing: ";
 	cin >> continueProgram;
 	while (continueProgram == "f" || continueProgram == "F") {
-		RandomNumberGenerator random_number;
-		random_number = rand() % 5 + 1;
-		fish = rand() % 6;
-		switch (fish) {
+		dice = random_number.rollDice();
+		switch (dice) {
 		case 0:
 			cout << "You caught an old shoe, no points\n\n";
 			break;
