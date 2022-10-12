@@ -2,6 +2,8 @@
 
 Write a program that simulates a fishing game. A six-sided die is rolled to determine what the user caught. Each possible item is worth a certain number of fishing points. The user can fish as many times as they want, and each time, a message displays to tell them what they caught and the number of points earned. When the user is done fishing, a message is displayed congratulating the user depending on the number of fishing points gained.
 
+![2](https://github.com/bell-kevin/ch7fishing/blob/main/ch7fishing/fish2.PNG)
+
 You may select the fishing experience and points for each value on the die. Create a Word or text document that lists all the information. For example:
 
      Roll a 1: caught a small fish, 2 points
@@ -35,13 +37,17 @@ Run the program multiple times, enough to demonstrate each of the 6 results from
 
 Here is an example that demonstrates 4 of the 6 possible options (the fishing experience) listed above:
 
-Ch 7 Fishing
+![Ch 7 Fishing](https://github.com/bell-kevin/ch7fishing/blob/main/ch7fishing/fish.PNG)
 
  
 
 NOTE: Remember the requirements for a header and a pause at the end of the program, discussed in the reading "Console Applications". These are required in every console application project.
 
+![1](https://github.com/bell-kevin/ch7fishing/blob/main/ch7fishing/fish1.PNG)
+
 Submission: Submit a single zipped folder containing the document listing the fishing experiences and the results of a day, all of the specified screenshots AND the root folder for the project.
+
+![3](https://github.com/bell-kevin/ch7fishing/blob/main/ch7fishing/fish3.PNG)
 
 == We're Using GitHub Under Protest ==
 
